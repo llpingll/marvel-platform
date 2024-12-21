@@ -34,7 +34,7 @@ const ToolsListingContainer = (props) => {
     const sortedTools = [...(data || [])].sort((a, b) => {
       const aInToolsId = Object.values(TOOLS_ID).includes(a.id);
       const bInToolsId = Object.values(TOOLS_ID).includes(b.id);
-      
+
       if (aInToolsId && !bInToolsId) return -1;
       if (!aInToolsId && bInToolsId) return 1;
       return 0;
