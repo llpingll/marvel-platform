@@ -1,6 +1,9 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
-const PresentationGeneratorResponse = ({ data }) => {
+const PresentationGeneratorResponse = () => {
+  const { response } = useSelector((state) => state.tools);
+
   return (
     <div>
       <h2>Presentation Generator Output</h2>

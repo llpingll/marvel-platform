@@ -938,6 +938,71 @@
         "type": "text"
       },
       {
+        "defaultValue": "PDF",
+        "label": "File Type",
+        "name": "objectives_file_types",
+        "placeholder": "Select File Type",
+        "type": "file_type_selector",
+        "values": [
+          {
+            "key": "PDF",
+            "label": "PDF"
+          },
+          {
+            "key": "CSV",
+            "label": "CSV"
+          },
+          {
+            "key": "TXT",
+            "label": "TXT"
+          },
+          {
+            "key": "MD",
+            "label": "Markdown (MD)"
+          },
+          {
+            "key": "URL",
+            "label": "Website URL"
+          },
+          {
+            "key": "PPTX",
+            "label": "PPTX"
+          },
+          {
+            "key": "DOCX",
+            "label": "DOCX"
+          },
+          {
+            "key": "XLS",
+            "label": "XLS / XLSX"
+          },
+          {
+            "key": "XML",
+            "label": "XML"
+          },
+          {
+            "key": "GOOGLE_DOCS",
+            "label": "GOOGLE DOCS"
+          },
+          {
+            "key": "GOOGLE_SHEETS",
+            "label": "GOOGLE SHEETS"
+          },
+          {
+            "key": "GOOGLE_SLIDES",
+            "label": "GOOGLE SLIDES"
+          },
+          {
+            "key": "GOOGLE_DRIVE",
+            "label": "GOOGLE DRIVE"
+          },
+          {
+            "key": "IMAGES",
+            "label": "IMAGES (PNG / JPG / JPEG)"
+          }
+        ]
+      },
+      {
         "defaultValue": "en",
         "label": "Language",
         "name": "lang",
